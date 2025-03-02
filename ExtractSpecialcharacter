@@ -1,0 +1,8 @@
+package LogicalProblems;
+public class ExtractSpecialcharacter {
+        public static void main(String[] args) {
+            String input = "abcdef$@123";
+            String specialChars = input.replaceAll("[a-zA-Z0-9]", ""); // Keep only special characters
+            System.out.println("Output: " + specialChars); // Output: $@
+        }
+    }
