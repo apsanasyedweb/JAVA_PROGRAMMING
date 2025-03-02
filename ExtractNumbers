@@ -1,0 +1,10 @@
+package LogicalProblems;
+
+public class ExtractNumbers {
+        public static void main(String[] args) {
+            String input = "abcdef123@";
+            String numbers = input.replaceAll("[^0-9]", ""); // Keep only numbers
+            System.out.println("Output: " + numbers); // Output: 123
+        }
+    }
+
