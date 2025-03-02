@@ -1,0 +1,10 @@
+package LogicalProblems;
+
+public class Extractalphabets {
+        public static void main(String[] args) {
+            String input = "apsana@123";
+            String output = input.replaceAll("[^a-zA-Z]", ""); // Remove non-alphabetic characters
+            System.out.println("Output: " + output);
+        }
+    }
+
